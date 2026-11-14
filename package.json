@@ -1,0 +1,12 @@
+{
+  "name": "agentgames-gatekeeper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Proof Gatekeeper agent for zkVerify Agent Games (deterministic rules engine + local Groth16 proving)",
+  "main": "server.mjs",
+  "dependencies": {
+    "snarkjs": "^0.7.5",
+    "js-sha3": "^0.9.3"
+  }
+}
